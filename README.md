@@ -7,13 +7,11 @@
 
 在Wireshark配置完成的情况下，使用macOS自带的BLE模块进行重放攻击脚本
 
-基于python的bleak框架
-
 使用顺序
-1. sniffer_finder - 测试sniffer模块的串口
-2. devices_discover - 获取蓝牙设备的设备地址
-3. device_status - 测试指定 BLE 设备是否可用
-4. command_script - 基于 Wireshark 抓取的数据，进行 BLE 指令的重放实验
+1. sniffer_finder.py - 测试sniffer模块的串口
+2. devices_discover.py - 获取蓝牙设备的设备地址
+3. device_status.py - 测试指定 BLE 设备是否可用
+4. command_script.py - 基于 Wireshark 抓取的数据，进行 BLE 指令的重放实验
 
 ## 依赖环境
 - macOS (测试环境)
